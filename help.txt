@@ -1,0 +1,66 @@
+
+Commands available: 
+
+exit  	Exits the program 
+
+city
+	Description: Lists cities and the number of RubRatings advertisements.  
+	This command must be followed by either a top or bottom command 
+
+	Option:
+
+		* top=<limit>|bottom=<limit> [default: top=10]
+		Description: Specifies whether to list the top <limit> matches or the
+		bottom <limit> matches.
+
+state
+	Description: Lists states and the number of RubRatings advertisements.  
+	This command must be followed by either a top or bottom command 
+
+	Option:
+
+		* top=<limit>|bottom=<limit> [default: top=10]
+		Description: Specifies whether to list the top <limit> matches or the
+		bottom <limit> matches.
+
+map
+	Description: Lists the cities, count of advertisements for that city, 
+	and their associated lat/lng. 
+	This command will also produce a map visualization of the US
+
+
+time
+	Description: Lists the number of advertisements by day 
+	according to the date they were advertised. 
+	This command will also produce a line graph.
+
+	Options:
+
+		* city=<name> [default: none]
+		Description: Specifies a city within which to limit the
+		results.
+
+		* state=<name> [default: none]
+		Description: Specifies a city within which to limit the
+		results.
+
+		* all [default: none]
+		Description: returns a comparison of all the advertisements
+		by day across the US. 
+
+words
+	Description: Lists the description of the advertisements 
+	by city, state, or all and produces a wordcloud.
+
+	Options:
+		* city=<name> [default: none]
+		Description: Specifies a city within which to limit the
+		results.
+
+		* state=<name> [default: none]
+		Description: Specifies a city within which to limit the
+		results.
+
+		* all [default: none]
+		Description: returns all of the advertisement descriptions
+		across the US. 
