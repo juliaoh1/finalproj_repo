@@ -20,7 +20,7 @@ class TestDatabase(unittest.TestCase):
         results = cur.execute(sql)
         result_list = results.fetchall()
         self.assertIn(('Birmingham',), result_list)
-        self.assertEqual(len(result_list), 32263)
+        self.assertEqual(len(result_list), 37780)
 
         sql = 'SELECT DISTINCT City FROM RR_combined'
         results = cur.execute(sql)
@@ -33,12 +33,12 @@ class TestDatabase(unittest.TestCase):
         results = cur.execute(sql)
         result_list = results.fetchall()
         self.assertEqual(result_list[0][0],'Albany') #Albany
-        self.assertEqual(result_list[3][1], 84) #Anchorage
+        self.assertEqual(result_list[3][1], 99) #Anchorage
         
         sql = "SELECT distinct date from RR_combined"
         results = cur.execute(sql)
         result_list = results.fetchall()
-        self.assertEqual(len(result_list), 16)
+        self.assertEqual(len(result_list), 19)
 
         conn.close()
 
@@ -76,9 +76,8 @@ class TestDatabase(unittest.TestCase):
         '''
         results = cur.execute(sql)
         result_list = results.fetchall()
-        self.assertIn(('Atlanta', 1823,), result_list)
-        self.assertEqual(result_list[2][1], 1823) #Atlanta
-        self.assertEqual(result_list[6][1], 790) #Phoenix
+        self.assertIn(('Atlanta', 2137,), result_list)
+        self.assertEqual(result_list[6][1], 918) #Phoenix
         conn.close()
         
 class TestMapSearch(unittest.TestCase):
