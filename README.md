@@ -7,7 +7,7 @@ My Github repo: https://github.com/juliaoh1/finalproj_repo.git
 
 (final_part3.py) creates a user interaction that requires some explanation. The help.txt file has some more details, but I will summarize here. 
 
-
+The function "def process_command(command)" handles all of the user interaction in a nested if statement. Below is a brief explanation.
 ## Commands and options:
 	“city”: Produces the cities and the number of advertisements in that city over the entire period that RR_combined covers. This command must be accompanied by “top=<number>” or “bottom=<number>”, which renders the top or bottom cities accordingly.
 	“state”: Produces the states and the number of advertisements in that state over the entire period that RR_combined covers (11/20-12/8). This command must be accompanied by “top=<number>” or “bottom=<number>”, which renders the top or bottom states accordingly.
