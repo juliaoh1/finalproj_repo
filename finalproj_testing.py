@@ -1,9 +1,8 @@
 #Julia Coxen
 #SI 507
 #Discussion: Tuesday 4pm
-#With help from Wunmi 
 
-## Project 3 for SI 507
+## Final Project for SI 507
 
 #Unit testing
 

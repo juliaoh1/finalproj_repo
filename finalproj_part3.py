@@ -2,7 +2,7 @@
 #Julia Coxen
 #SI 507
 #Discussion: Tuesday 4pm
-#With help from Wunmi 
+#With help from Wunmi and Erkin Otles
 
 ## Project 3 for SI 507
 
