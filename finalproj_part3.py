@@ -90,7 +90,7 @@ if len(sys.argv) > 1 and sys.argv[1] == '--init':
 else:
     print('Leaving the DB alone.')
 
-initializing = init_db()
+#initializing = init_db()
 
 def insert_stuff():
     conn = sqlite3.connect(DBNAME)
