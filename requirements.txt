@@ -17,7 +17,7 @@ clyent==1.2.2
 conda==4.7.12
 conda-build==3.17.8
 conda-package-handling==1.6.0
-cryptography==2.7
+cryptography==3.2
 cycler==0.10.0
 decorator==4.4.0
 defusedxml==0.6.0
