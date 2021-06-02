@@ -121,7 +121,7 @@ tornado==6.0.3
 tqdm==4.36.1
 traitlets==4.3.2
 typed-ast==1.4.0
-urllib3==1.24.2
+urllib3==1.26.5
 useragent==0.1.1
 virtualenv==16.4.1
 wcwidth==0.1.7
